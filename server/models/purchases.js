@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 //schema = way that we structure data
 
-const PurchaseSchema = new mongoose.Schema(
-    {
+const PurchaseSchema = new mongoose.Schema({
         name: {
             type: String,
             required: true
@@ -28,8 +27,7 @@ const PurchaseSchema = new mongoose.Schema(
             required: true
         },        
         
-    }
-);
+});
 
 const Purchase = mongoose.model('Purchase', PurchaseSchema);
 //what we will apply to code so it follows this schema

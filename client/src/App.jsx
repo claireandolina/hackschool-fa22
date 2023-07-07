@@ -1,3 +1,4 @@
+import "./App.css";
 import Navbar from "./Navbar";
 import CreatePurchase from "./CreatePurchase";
 import ViewPurchase from "./ViewPurchase";

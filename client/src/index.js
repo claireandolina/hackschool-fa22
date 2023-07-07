@@ -10,3 +10,4 @@ ReactDOM.render(
 );
 
 //importing the App
+//installed react and reactDOM - dependencies needed to switch between webpages
